@@ -3,3 +3,9 @@ module CHiRedis [system] {
     link "hiredis"
     export *
 }
+module HiRedisAsync [system] {
+    header "/usr/include/hiredis/async.h"
+    link "hiredis"
+    export *
+}
+
